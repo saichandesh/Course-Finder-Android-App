@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Course</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_html">htmlActivity</string>
+    <string name="title_activity_java">javaActivity</string>
+    <string name="title_activity_hadoop">hadoopActivity</string>
+    <string name="title_activity_android">androidActivity</string>
+    <string name="title_activity_ios">iosActivity</string>
+    <string name="title_activity_python">pythonActivity</string>
+    <string name="title_activity_mysql">mysqlActivity</string>
+    <string name="title_activity_c">cActivity</string>
+    <string name="title_activity_css">cssActivity</string>
+    <string name="title_activity_javascript">javascriptActivity</string>
+
+</resources>

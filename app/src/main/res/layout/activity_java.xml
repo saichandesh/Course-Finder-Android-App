@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.training.course.javaActivity">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textview"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:background="#498999"
+        android:layout_margin="6dp"
+        android:height="35dp"
+
+
+
+        android:text="Free Tutorial Websites"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Java Documentation"
+        android:id="@+id/button1"
+        android:layout_below="@+id/textview"
+        android:layout_margin="6dp"
+        android:onClick="javaDocPage"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Code Academy"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button1"
+        android:layout_margin="6dp"
+        android:onClick="javaCodeAcdPage"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutorials Point"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_margin="6dp"
+        android:onClick="tutorialJavaPage"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.training.course" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="COURSE FINDER" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="All Courses"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".htmlActivity"
+            android:label="HTML5"
+            android:parentActivityName=".Main2Activity" >
+        </activity>
+        <activity
+            android:name=".javaActivity"
+            android:label="JAVA"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".hadoopActivity"
+            android:label="HADOOP"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".androidActivity"
+            android:label="ANDROID"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".iosActivity"
+            android:label="iOS"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".pythonActivity"
+            android:label="PYTHON"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".mysqlActivity"
+            android:label="MySQL"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".cActivity"
+            android:label="C PROGRAMMING"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".cssActivity"
+            android:label="CSS3"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+        <activity
+            android:name=".javascriptActivity"
+            android:label="JAVASCRIPT"
+            android:parentActivityName=".Main2Activity">
+        </activity>
+    </application>
+
+</manifest>

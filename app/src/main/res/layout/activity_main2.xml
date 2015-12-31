@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/java_icon"
+            android:onClick="javaTutPage"
+
+
+            android:layout_margin="5dp"
+
+
+
+          />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+
+     android:layout_weight="0.5"
+            android:src="@drawable/hadoop_icon"
+android:onClick="hadoopTutPage"
+
+            android:layout_margin="5dp"
+/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.5"
+
+            android:src="@drawable/android_icon"
+
+android:onClick="androidTutPage"
+            android:layout_margin="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.5"
+            android:src="@drawable/ios_icon"
+            android:onClick="iosTutPage"
+
+
+            android:layout_margin="5dp"
+            />
+
+</TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:src="@drawable/python_icon"
+                android:onClick="pythonTutPage"
+
+
+                android:layout_margin="5dp"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton6"
+
+                android:layout_weight="0.5"
+                android:src="@drawable/mysql_icon"
+                android:onClick="mysqlTutPage"
+
+
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+
+                android:src="@drawable/c_icon"
+
+                android:onClick="cTutPage"
+
+
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.5"
+                android:src="@drawable/html_icon"
+
+                android:onClick="htmlPage"
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:src="@drawable/css_icon"
+                android:onClick="cssTutPage"
+
+
+                android:layout_margin="5dp"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton10"
+
+                android:layout_weight="0.5"
+                android:src="@drawable/javascript_icon"
+                android:onClick="javaScriptTutPage"
+
+
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+
+
+
+
+
+
+    </TableLayout>
+</ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
